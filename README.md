@@ -1,0 +1,1 @@
+personal weather app that lives on the system tray. checks weather around every 5 minutes and updates the app icon to the current temperature. opening the app lets you change the location it periodically tracks as well as shows you a detailed view of the current weather (precipitation, wind, humidity, etc) as well as forecasted weather for up to 24hrs 
