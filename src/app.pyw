@@ -251,7 +251,7 @@ def button_function():
                             .strftime('%d-%m-%Y %H:%M:%S')}"
         )
         # Update coordinates string
-        lat_lon.set(f"{params['latitude']}\n{params['longitude']}\n{location_name}")
+        lat_lon.set(f"{float(params['latitude']):.4f}\n{float(params['longitude']):.4f}\n{location_name}") # [:7] so it only shows first 7 chars, aka turn 39.03242304293402 into 30.0324
         # lat_lon.set(lat_lon.get()+ "\n" + location_name)
 
         # change icon to the number of current temp
